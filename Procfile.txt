@@ -1,0 +1,1 @@
+web: gunicorn infilect-assigment.wsgi --log-file -
