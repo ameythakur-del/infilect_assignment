@@ -41,7 +41,7 @@ def User_logout(request):
 
 @csrf_exempt
 @api_view(["GET"])
-def sample_api(request, page=1):
+def data(request, page=1):
     # We are calling the weather API
     url = 'http://api.openweathermap.org/data/2.5/weather?q={}&units=imperial&appid=648eb266e5c66ade214f030a0ffd0273'
     city_weather = None

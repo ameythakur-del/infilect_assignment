@@ -7,5 +7,5 @@ urlpatterns = [
     path('logout', views.User_logout, name='logout'),
 
     # Pagination is done to show the data of 30 cities (10 items on every page)
-    path('data/<int:page>', views.sample_api, name='logout'),
+    path('data/<int:page>', views.data, name='logout'),
 ]
